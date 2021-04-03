@@ -1,6 +1,6 @@
 body {
 	background-color: black;
-    margin: 0;
+    
 	color: #fff;
 }
 
@@ -15,12 +15,10 @@ ul {
 .main {
 	max-width: 1150px;
 	margin: 40px auto;
-	<p>Text with stroke</p>
 
 }
 
-h1 {
-
+.tytle {
 	color: #e80a0a;
 	border: solid 3px #e80a0a;
 	text-align: center;
@@ -29,9 +27,9 @@ h1 {
     margin-bottom: 35px;
 }
 
-h1:hover {
+.tytle:hover {
 	color: black;
-	border: solid 3px rgb(243, 235, 235);
+	border: solid 3px rgb(255, 255, 255);
 	background-color: #e80a0a;
 	
 }
@@ -55,6 +53,48 @@ h1:hover {
 	height: 260px;
 	outline: none; /* убирает выделение (border) */
 	
+}
+
+
+.video-sub-title {
+	font-size: 13px;
+	color: #ffffff66;
+}
+
+.social-network {
+	display: flex;
+}
+
+.social-network li {
+	margin-right: 20px;
+}
+
+.social-network li:nth-child(1) a {
+	display: block;
+    height: 40px;
+    width: 40px;
+    background-image: url('../img/vk.png');
+}
+
+.social-network li:nth-child(2) a {
+	display: block;
+    height: 40px;
+    width: 40px;
+    background-image: url('../img/fb.png');
+}
+
+.social-network li:nth-child(3) a {
+	display: block;
+    height: 40px;
+    width: 40px;
+    background-image: url('../img/tw.png');
+}
+
+.social-network li:nth-child(4) a {
+	display: block;
+    height: 40px;
+    width: 40px;
+    background-image: url('../img/inst.png');
 }
 
 .button {
@@ -190,7 +230,7 @@ h1:hover {
 }
 
 .related-movies h3 a {
-	color: #fff;
+	color: rgb(255, 255, 255);
 }
 
 .related-movies h3 a span {
@@ -223,10 +263,12 @@ h1:hover {
     height: 210px;
 }
 
-
+.fact{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 .film-facts .fact {
-	color: #ffffff99;
+	color:  #ffffff99;
 	list-style: disc;
 	padding: 16px 0 16px 24px;
 }
@@ -243,12 +285,13 @@ h1:hover {
 		align-items: center;
 		justify-content: space-around;
 	}
-
+	
 	.poster-review video {
 		width: 500px;
 		height: 400px;
 		outline: none;
 	}
+
 
 	.video-title, .video-sub-title {
 		font-size: 16px;
@@ -260,6 +303,10 @@ h1:hover {
 	}
 }
 
+.center-img {
+	display: block;
+	margin: 0 auto;
+  }
 @media (max-width: 960px) {
 	.additional-material {
 		flex-direction: column;
