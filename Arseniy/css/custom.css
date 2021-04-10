@@ -1,6 +1,6 @@
 body {
 	background-color: black;
-    
+
 	color: #fff;
 }
 
@@ -55,6 +55,9 @@ ul {
 	
 }
 
+a {
+	color: #fff;
+}
 
 .video-sub-title {
 	font-size: 13px;
@@ -268,9 +271,14 @@ ul {
 }
 
 .film-facts .fact {
-	color:  #ffffff99;
+	color: #ffffff99;
 	list-style: disc;
 	padding: 16px 0 16px 24px;
+}
+
+.cards_do_you_know_what {
+	display: flex;
+	flex-direction: row;
 }
 
 
